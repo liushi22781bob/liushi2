@@ -21,7 +21,7 @@ setInterval(
     var slogan = get("#slogan");
     var android = get("#android");
     var phone = get("#phone");
-    var new_ele = get("#new_ele");
+    var page_footer = get("#page_footer");
 
     //get("div").css('border-color', randomColor());
     logo.css('background-color', randomColor());
@@ -33,6 +33,6 @@ setInterval(
     //move(slogan, -1, -1);
     //move(android, 1, 1);
     
-    //move(new_ele, 1, -1)
+    move(page_footer, 1, -1)
 
   }, 100);
