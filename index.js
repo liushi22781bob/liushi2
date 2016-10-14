@@ -32,6 +32,7 @@ setInterval(
 
     //move(slogan, -1, -1);
     //move(android, 1, 1);
-
+    
+    //move(new_ele, 1, -1)
 
   }, 100);
