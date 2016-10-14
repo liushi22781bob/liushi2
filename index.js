@@ -40,4 +40,34 @@ setInterval(
     
     //move(page_footer, 1, -1)
 
-  }, 100);
+  }, 100
+
+  function()
+{
+  //
+  // Run the same code every two seconds!
+  //
+  var logo = get("#logo");
+  var slogan = get("#slogan");
+  var android = get("#android");
+  var phone = get("#phone");
+  var page_footer = get("#page_footer");
+
+  var counter=1;
+
+  //get("div").css('border-color', randomColor());
+  logo.css('background-color', randomColor());
+  slogan.css('background-color', randomColor());
+
+  counter++;
+  rotate(phone, 180*counter);
+
+  //move(logo, -1, -1);
+  //move(phone, 1, 1);
+
+  //move(slogan, -1, -1);
+  //move(android, 1, 1);
+
+  //move(page_footer, 1, -1)
+
+}, 100);
