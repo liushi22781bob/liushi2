@@ -29,6 +29,8 @@ setInterval(
     move(logo, -1, -1);
     move(phone, 1, 1);
 
+    move(slogan, -1, -1);
+    move(android, 1, 1);
 
 
-  }, 10);
+  }, 100);
