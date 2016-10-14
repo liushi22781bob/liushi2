@@ -23,14 +23,14 @@ setInterval(
     var phone = get("#phone");
     var page_footer = get("#page_footer");
     
-    var counter=0;
+    var counter=1;
 
     //get("div").css('border-color', randomColor());
     logo.css('background-color', randomColor());
     slogan.css('background-color', randomColor());
 
-    
-    rotate(phone, 90)
+    counter++;
+    rotate(phone, 90*counter);
     
     //move(logo, -1, -1);
     //move(phone, 1, 1);
