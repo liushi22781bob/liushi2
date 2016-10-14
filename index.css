@@ -1,0 +1,38 @@
+#foo
+{
+  top: 100px;
+  left: 100px;
+}
+#bar
+{
+  top: 100px;
+  left: 200px;
+}
+#nihao
+{
+  top: 100px;
+  left: 300px;
+}
+#hello
+{
+  top:200px;
+  left:300px;
+}
+
+#logo
+{
+  position: relative;
+  color: black;
+}
+
+#phone
+{
+  position: relative;
+}
+
+div
+{
+  border:3px;
+  border-style: solid;
+  border-color: rgba(255,255,255, 0);
+}
