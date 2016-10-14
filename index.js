@@ -21,6 +21,7 @@ setInterval(
     var slogan = get("#slogan");
     var android = get("#android");
     var phone = get("#phone");
+    var new_ele = get("#new_ele");
 
     //get("div").css('border-color', randomColor());
     logo.css('background-color', randomColor());
