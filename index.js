@@ -27,12 +27,14 @@ setInterval(
     logo.css('background-color', randomColor());
     slogan.css('background-color', randomColor());
 
+    rotate(phone, 90)
+    
     //move(logo, -1, -1);
     //move(phone, 1, 1);
 
     //move(slogan, -1, -1);
     //move(android, 1, 1);
     
-    move(page_footer, 1, -1)
+    //move(page_footer, 1, -1)
 
   }, 100);
